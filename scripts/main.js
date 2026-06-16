@@ -32,7 +32,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `This lk's waifu Lin, ${myName},you son of bitch.`;
+    myHeading.textContent = `This islk's waifu Lin, ${myName},you son of bitch.`;
   }
 }
 
@@ -40,7 +40,7 @@ if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `This lk's waifu Lin, ${storedName},you son of bitch.`;
+  myHeading.textContent = `This is lk's waifu Lin, ${storedName},you son of bitch.`;
 }
 
 myButton.addEventListener("click", () => {
