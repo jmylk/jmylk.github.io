@@ -32,7 +32,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `This islk's waifu Lin, ${myName},you son of bitch.`;
+    myHeading.textContent = `This is lk's waifu Lin, ${myName},you son of bitch.`;
   }
 }
 
